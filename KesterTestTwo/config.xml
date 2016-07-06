@@ -2,15 +2,15 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "kestertesttwo.id"
+        id        = "com.neuteng.kestertesttwo.id"
         version   = "1.0.0">
 
     <name>KesterTestTwo</name>
 
-    <description>Single-Page Application based on jQuery Mobile.</description>
+    <description>Test Single-Page Application based on jQuery Mobile.</description>
 
-    <author href="http://myeclipseide.com" email="support@genuitec.com">
-        MyEclipse Phonegap Tools
+    <author href="http://neuteng.com" email="kester.gabriel@neuteng.com">
+        Class Example MyEclipse Phonegap Tools
     </author>
 
 	
@@ -71,7 +71,7 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="*"/>
+    <access origin="*" subdomains="true"/>
     
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
